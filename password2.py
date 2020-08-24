@@ -10,3 +10,5 @@ while i > 0:
 		print('password incorrect!')
 		if i > 0:
 			print('you still have' , i, 'chances')
+		else:
+			print('no more chances. account will be locked')
