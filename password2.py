@@ -7,4 +7,6 @@ while i > 0:
 		print('login successfully')
 		break
 	else:
-		print('password incorrect! you still have' , i, 'chances')
+		print('password incorrect!')
+		if i > 0:
+			print('you still have' , i, 'chances')
